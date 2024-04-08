@@ -13,7 +13,7 @@ body{
 
 #inputSearch{
     width: 70%;
-    margin: 8px 0;
+    margin: 0 8px 0 0;
     box-sizing: border-box;
     border-radius: 12px;
     font-size: x-large;
@@ -42,9 +42,8 @@ body{
     background-color: #3d3969;
     color: #e3f0ea;
     width: 30%;
-    height: 30px;
+    height: 46px;
     border-radius: 20px;
-    margin-top: 15px;
     font-size: large;
     border: none;
     transition: 0.5s;
@@ -86,5 +85,9 @@ h3{
     margin-top: 50px;
     width: 50%;
     border-radius: 50%;
+}
+
+#search{
+    display: flex;
 }
 
